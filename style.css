@@ -1,0 +1,164 @@
+*{
+    box-sizing:boarder-box;
+    margin:0;
+    padding:0;
+    font-family: "montserrat",sans-serif;
+}
+.logo img{
+    padding: 22px 50px;
+    height:150px;
+    width:300px;
+}
+.menu li a{
+    text-transform:uppercase;
+    text-decoration:none;
+    height:40px;
+    line-height: 125px;
+    font-size:19.5px;
+    font-weight:bold;
+    list-style: none;
+    margin: 30px;
+    font-style: oblique;
+    padding: 0px 22px;
+    color:rgb(235,13,180);
+}
+.menu{
+    list-style: none;
+}
+nav{
+    justify-content: space-around;
+    position: fixed;
+    left:0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background-color:rgb(241, 155, 84) ;
+    z-index: 1;
+    box-shadow: 5px 10px 30px black;
+}
+.menu li a:hover{
+    background-color: #e9eb97;
+    color:rgb(16,121,219);
+    box-shadow: 50px 10px 30px rgba(15, 15, 15, 0.2);
+    transition: all ease 0.2s;
+}
+.aware-image{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    margin-left: 58%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+}
+.aware-image img{
+    object-fit: contain;
+    height:50%;
+    width:50%;
+}
+.tips-image{
+  margin-left: 18%;
+}
+.tips-image img{
+    object-fit: contain;
+    height:50%;
+    width:70%;
+}
+.mentalhealth-img{
+    width: 100%;
+    height: 100%;
+}
+.mentalhealth-img img{
+    object-fit: contain;
+    height:100%;
+    width:100%;
+}
+.maintext{
+    list-style-position: 90px;
+    margin-left: 35%;
+    width: 65%;
+}
+.maintext h1{
+    font-size: 3.5em;
+    color: #1c3548;
+    margin: 0% 0px 0px 0px;
+    line-height: 50px;
+    color: rgb(24, 42, 233);
+    text-decoration:underline;
+    
+}
+.maintext p{
+    color:rgb(17, 14, 14);
+    font-size: 30px;
+}
+.aware-content{
+    left: 50px;
+    margin-left: 35%;
+    width: 65%;
+}
+.aware-content h1{
+    font-size: 3.5em;
+    margin: 0% 0px 0px 0px;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(226, 192, 98);
+    text-decoration:underline;
+}
+.aware-content p{
+    color:rgb(8, 8, 8);
+    font-size: 30px;
+}
+.bottom-mh h3{
+    color: rgb(247, 199, 154);
+    text-decoration:underline;
+}
+.bootom-mh p li{
+    color:gray;
+    font-size: 55%;
+}
+.bottom-mh {
+    left: 50px;
+    margin-left: 35%;
+    width: 65%;
+    margin-top: 400px;
+}
+.bottom{
+    left: 50px;
+    margin-left: 35%;
+    width: 65%;
+    margin-top: 400px;
+}
+.bottom h2{
+    color: rgb(198, 250, 221);
+    text-decoration:underline;
+}
+.bottom p{
+    color:rgb(216, 92, 92);
+    font-size: 30px;
+}
+.bottom li{
+    color:rgb(107, 149, 150);
+    font-size: 30px;
+}
+.button {
+    top: 50%;
+    bottom: 0%;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1db096;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px rgba(24,139,119,0.2);
+}
+.button:hover{
+    background-color: #23cdaf;
+    transition: all ease 0.2s;
+    }
+a{
+    text-decoration: none;
+}
